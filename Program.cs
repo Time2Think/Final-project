@@ -340,7 +340,7 @@ namespace Labirint
                     map[heroY, heroX] = '@';
                     PutCh('@', heroY, heroX);
                 }
-                if (map[heroY + dy, heroX + dx] == '$')
+                if (map[heroY + dy, heroX + dx] == '$')return;
                 {
                   
                     Console.Clear();
